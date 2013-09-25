@@ -53,6 +53,6 @@ production:
   encoding: unicode
   database: skeeters_production
   pool: 5
-  username: adjohns
-  password:
+  username: skeeters
+  password: h0lein0ne
   host: localhost
