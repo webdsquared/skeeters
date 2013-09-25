@@ -4015,7 +4015,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   border: 1px solid transparent;
 }
 
@@ -4378,13 +4378,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #2E2B99;
+  font-weight: bold;
+  text-transform: uppercase; 
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #E5CC5A;
   background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase; 
 }
 
 .navbar-default .navbar-text {
