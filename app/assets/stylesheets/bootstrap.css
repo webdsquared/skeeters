@@ -4041,7 +4041,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 
@@ -4499,7 +4499,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #F7E27E;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -5995,6 +5995,15 @@ body.modal-open,
   border-right-width: 0;
   content: " ";
 }
+
+/*
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+*/
+
+
 
 .carousel {
   position: relative;
