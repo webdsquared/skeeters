@@ -4378,14 +4378,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #2E2B99;
+  color: #777;
   font-weight: bold;
   text-transform: uppercase; 
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #E5CC5A;
+  color: #fff;
   background-color: transparent;
   font-weight: bold;
   text-transform: uppercase; 
@@ -4499,7 +4499,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #F7E27E;
+  color: #777;
 }
 
 .navbar-inverse .navbar-brand:hover,
