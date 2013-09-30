@@ -1,0 +1,31 @@
+<%= render 'partials/nav' %>
+<div class="profile_container">
+	<div class="container">
+		<h2>2013-2014 Skeeters</h2>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<%= image_tag "team_photo.jpg", class: "img-responsive" %>
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<h3>Roster</h3>
+				<% for profile in @profiles %>
+					<%= link_to profile.name, profile %>
+				<% end %>
+				<h5>Avery Johnson #7</h5>
+				<h5>Lincoln Campbell #9</h5>
+				<h5>Drew Lamb #23</h5>
+				<h5>Avery Johnson #7</h5>
+				<h5>Lincoln Campbell #9</h5>
+				<h5>Drew Lamb #23</h5>
+				<h5>Avery Johnson #7</h5>
+				<h5>Lincoln Campbell #9</h5>
+				<h5>Drew Lamb #23</h5>
+				<p>Click on a players name to view their profile.</p>
+			</div>
+		</div>	
+	</div>
+	<%= render 'partials/footer' %>
+</div>
+
