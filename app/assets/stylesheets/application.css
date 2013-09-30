@@ -27,9 +27,9 @@
 .footer-mobile p { padding-left:20px;color:white;padding-top:20px; }
 .car-container { padding-top:30px;background:#000;padding-bottom:30px; }
 .bottom-home { background:#bbb; }
-.home-container { background:#e3e3e4;position:relative;padding-bottom:60px;min-height:100%; }
+.home-container { background:#e3e3e4;position:relative;padding-bottom:100px;min-height:100%; }
 h2, p {color:#222;}
-.profile-container { position:relative;padding-bottom:60px;min-height:100% }
+.profile-container { position:relative;padding-bottom:100px;min-height:100% }
 
 .field-container { height:600px;background:black url('baseball_diamond.jpg') no-repeat; }
 
