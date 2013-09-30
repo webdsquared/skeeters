@@ -1,7 +1,7 @@
 class ProfilesController < ApplicationController
 
 	def index
-		@profiles = Profile.all
+		@profiles = Profile.order('name asc')
 	end
 
 	def show
