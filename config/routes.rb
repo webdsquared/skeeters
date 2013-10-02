@@ -1,6 +1,11 @@
 Skeeters::Application.routes.draw do
   
   resources :profiles
+  match 'sponsors', to: 'pages#sponsors', as: 'sponsors'
+  get 'pages/sponsors'
+  match 'coaches', to: 'pages#coaches', as: 'coaches'
+  get 'pages/coaches'
+
 
 
   root to: 'pages#home'
